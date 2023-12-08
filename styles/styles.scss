@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 595px;
+    height: 842px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.column__one{
+    margin: 48px 24px 0px 48px;
+}
+
+.column__two{
+    margin: 48px 48px 0px 0px;
+}
