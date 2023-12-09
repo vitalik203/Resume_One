@@ -1,19 +1,111 @@
 body{
     display: flex;
     justify-content: center;
+    font-family: Arial;
 }
 
 .container{
+    margin-top: 45px;
     width: 595px;
     height: 842px;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    border: 2px solid gray;
+    overflow: hidden;
 }
 
+
+.container {
+}
 .column__one{
     margin: 48px 24px 0px 48px;
 }
-
+.one {
+}
+.one__titles {
+}
+.titles {
+    margin-bottom: 30px;
+}
+.one__title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.one__subtitle {
+    font-weight: 100;
+}
+.one__experience {
+}
+.experience {
+}
+.experience__box {
+}
+.experience__title {
+    color: #101214;
+font-family: Arial;
+font-size: 11px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px;
+}
+.experience__enterprice {
+    color: #101214;
+font-family: Arial;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+}
+.experience__subtitle {
+}
+.experience__time {
+    color: #73808D;
+font-family: Arial;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+}
+.experience__description {
+    color: #101214;
+font-family: Arial;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+    margin-bottom: 25px;
+}
 .column__two{
     margin: 48px 48px 0px 0px;
+    color: #73808D;
+font-family: Arial;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 163.636% */
+}
+.two {
+}
+
+.marg{
+    margin-bottom: 25px;
+}
+.two__avatar {
+    margin-bottom: 32px;
+    width: 50%;
+}
+.two__contacts {
+}
+.industry__knowledge {
+}
+.bold {
+    font-weight: bold;
+}
+.tools__technologies {
+}
+.other__skills {
+}
+.languages {
+}
+.socials {
 }
